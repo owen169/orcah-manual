@@ -73,7 +73,7 @@ With our new game rules comes a modified field layout.  Our field layout is asym
 
 \item\textbf{1 Point Ball} - Ball of your opponent’s Alliance color.
 
-\item\textbf{Point Ball} - Ball of your Alliance color.
+\item\textbf{2 Point Ball} - Ball of your Alliance color.
 
 \item\textbf{Connected Row} - A Row where all three (3) Goals in the Row are Owned by the same Alliance.
 
@@ -103,22 +103,19 @@ In the event that more than three Balls are scored in a Goal, the highest point 
 
 \newpage
 
-\item\textbf{Red Alliance Field}
-The Red Alliance and Blue Alliance have mirrored field layouts to avoid requiring teams to recreate their autonomous functions for ORCAH’s game.  For virtual matches, the Red Alliance will be on the left side of the field from the audience point of view.
+\item\textbf{Red Alliance Field} - The Red Alliance and Blue Alliance have mirrored field layouts to avoid requiring teams to recreate their autonomous functions for ORCAH’s game.  For virtual matches, the Red Alliance will be on the left side of the field from the audience point of view.
 
 \begin{center}
 \includegraphics[scale=0.25]{redfield}
 \end{center}
 
-\item\textbf{Blue Alliance Field}
-The Blue Alliance and Red Alliance have mirrored field layouts to avoid requiring teams to recreate their autonomous functions for ORCAH’s game.  For virtual matches, the Blue Alliance will be on the right side of the field from the audience point of view. 
+\item\textbf{Blue Alliance Field} - The Blue Alliance and Red Alliance have mirrored field layouts to avoid requiring teams to recreate their autonomous functions for ORCAH’s game.  For virtual matches, the Blue Alliance will be on the right side of the field from the audience point of view. 
 
 \begin{center}
 \includegraphics[scale=0.25]{bluefield}
 \end{center}
 
-\item\textbf{Goal Label}
-To aid in remote communication and scoring, each Goal has a Goal Label, as shown in Figure 17. These Goal Labels are laid out relative to the Alliance Stations and audience view, and should be consistent between all four Team fields. For example, if a Head Referee were to ask Team members to “point at Goal A”, all Team members should point to the Goal in the top-left corner of the remote webcam feed.
+\item\textbf{Goal Label} - To aid in remote communication and scoring, each Goal has a Goal Label, as shown in Figure 17. These Goal Labels are laid out relative to the Alliance Stations and audience view, and should be consistent between all four Team fields. For example, if a Head Referee were to ask Team members to “point at Goal A”, all Team members should point to the Goal in the top-left corner of the remote webcam feed.
 
 \begin{center}
 \includegraphics[scale=0.5]{labels}
@@ -187,7 +184,7 @@ All robot rules will follow the VEX Game Manual and REC Foundation Q\&A.
 
 \item\textbf{$<$ORCAH-TR2$>$ 1 versus 1} - Matches will be played 1v1 with no alliance partner. 
 
-\item\textbf{$<$ORCAH-TR3$>$ Elimination} - Eliminations will be a double elimination bracket.  Double eliminations is like a normal eliminations bracket, but with a second chance for teams that have lost their first eliminations match.  More information on how double eliminations work can be found here. 
+\item\textbf{$<$ORCAH-TR3$>$ Elimination} - Eliminations will be a double elimination bracket.  Double eliminations is like a normal eliminations bracket, but with a second chance for teams that have lost their first eliminations match. \href{https://en.wikipedia.org/wiki/Double-elimination_tournament}{More information on how double eliminations work can be found here.}
 
 \begin{itemize}
 \item[--] Quarter-finals (and matches before) will be best of one (1).
@@ -195,7 +192,11 @@ All robot rules will follow the VEX Game Manual and REC Foundation Q\&A.
 \item[--] Finals will be best of five (5), where the winner of the upper bracket will start with an automatic one (1) win lead.
 \end{itemize}
 
-\item\textbf{$<$ORCAH-TR4$>$ For Teams Sharing a Field} - This is something that we are working towards.  The current idea is to run a normal in person Change Up match that is 1v1, using the VEX Game Manual and changing defense rules to make it easier for referees.  This is not completely decided yet, and feedback is welcome.  An update on this will come in a future version of the manual.
+\item\textbf{$<$ORCAH-TR4$>$ For Teams Sharing a Field} - All teams sharing a field will be required to complete the Head Referee Certification.  Matches will be played using the VEX Game Manual and REC Foundation Q\&A except for the following:
+\begin{itemize}
+\item[--] Matches will be played as 1v1 instead of 2v2
+\end{itemize}
+
 
 \item\textbf{$<$ORCAH-TR5$>$ Competition Switch} - During matches, your controller must be plugged into a competition switch.  A drive team member must:
 \begin{itemize}
@@ -209,11 +210,66 @@ This rule is in place as an attempt to minimize the effects of video latency bet
 
 \item\textbf{$<$ORCAH-TR6$>$ Software} - An event console is being developed for use in matches. More information and rules will come in a future update.
 
+\item\textbf{$<$ORCAH-TR7$>$ Tournament Rankings} - Rankings during qualification rounds will be determined in the following order:
+
+\begin{itemize}
+\item[--] Win Points (WP)
+\item[--] Autonomous Points (AP)
+\item[--] Competition Skills Ranking (CSR)
+\item[--] Electronic Tiebreaker
 \end{itemize}
+
+\end{itemize}
+
+\section{Skills}
+
+\begin{itemize}[label={}]
+
+\item\textbf{$<$ORCAH-S1$>$ Tournament and Global Ranking} - Skills will be ranked the same for Global and Tournament rankings.  Rankings will happen in this order:
+
+\begin{enumerate}
+\item Robot Skills Score
+\item Programming Skills Score
+\item Programming Skills Stop Time
+\item Driver Skills Stop Time
+\item Programming Skills Attempts
+\item Driver Skills Attempts
+\item Second Highest Programming Skills
+\item Second Highest Programming Skills Stop Time
+\item Second Highest Driver Skills
+\item Second Highest Driving Skills Stop Time
+\item Third Highest Programming Skills
+\item Third Highest Programming Skills Stop Time
+\item Third Highest Driver Skills
+\item Third Highest Driving Skills Stop Time
+\end{enumerate}
+
+\end{itemize}
+
+\newpage
 
 \section*{Changelog}
 To submit feedback, please submit a form on the Q\&A page of the ORCAH website, or email us at orcah.robotics@gmail.com.
-\\~\\
-v1.0.0 - First Release.
+
+\vspace{0.25in}
+
+\noindent
+\textbf{v1.0.0}
+
+\begin{itemize}
+\item[--] First Release.
+\end{itemize}
+
+\noindent
+\textbf{v1.1.0}
+
+\begin{itemize}
+\item[--] TR3 changed to include best of 1 semi-finals.
+\item[--] Clarified $<$ORCAH-TR4$>$.
+\item[--] Added $<$ORCAH-TR7$>$.
+\item[--] Added the skills section and $<$ORCAH-S1$>$.
+\item[--] Fixed typo on 2pt ball
+\end{itemize}
+
 
 \end{document}
